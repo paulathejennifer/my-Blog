@@ -37,10 +37,12 @@ color: #007bff;
 }
 .sponsored-section{
     margin-bottom: 0px;
-    background-image: ;
 }
 .sponsored-section h2{
-    margin-left: 300px;
+    margin-left: 330px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    color: rgb(99, 64, 70);
 }
 #goBack-option{
     margin-top: 1cm;
@@ -56,7 +58,7 @@ padding-bottom: 15px;
 .recommendation-item{
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
     flex-shrink: 0;
     padding: 15px;

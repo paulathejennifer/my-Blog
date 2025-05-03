@@ -17,11 +17,12 @@ body {
     position: relative;
 }
 
-#blog-author-name{
+#blog-author-name {
     font-family: "Dancing Script", cursive;
     color: linear-gradient(to bottom, #dbdbdb, #f9f9f9, #dbdbdb);
     cursor: pointer;
 }
+
 .author-logo {
     font-style: italic;
 }
@@ -104,13 +105,15 @@ body {
 .home-hero-container button:hover {
     background-color: rgba(255, 92, 148, 1);
 }
-.home-subtitle{
+
+.home-subtitle {
     font-size: 25px;
 }
+
 .home-subtitle p {
     font-size: 17px;
     width: 500px;
-    margin-left: 480px;
+    margin-left: 650px;
     color: aliceblue;
 }
 
@@ -130,27 +133,33 @@ body {
 #my-passions-grid h1 {
     margin-left: 570px;
     font-size: 30px;
+    color: gray;
+    font-weight: 100;
 }
 
 .author-passions-container {
     display: flex;
-    gap:2px;
-    
+    gap: 2px;
+   
+
 }
-.author-passions-container img{
+
+.author-passions-container img {
     width: 100px;
     transition: transform 0.4s ease;
 }
-.author-passion img:hover{
+
+.author-passion img:hover {
     transform: scale(1.2);
 }
+
 .author-passion {
     background-color: rgb(241, 174, 173);
     border-radius: 5px;
     box-shadow: 0 25px 5px rgba(0, 0, 0, 0.1);
     padding: 30px;
     text-align: center;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .author-passion h3 {
@@ -170,7 +179,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1em;
-    
+
 }
 
 .author-passion button:hover {
@@ -183,19 +192,22 @@ body {
     margin: 20px auto;
     position: relative;
 }
-.latest-blogs-container h2{
-   text-align: center;
-   font-family: sans-serif;
-   font-size: 30px;
+
+.latest-blogs-container h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
     font-weight: 100;
-   color: rgb(95, 91, 91);
+    color: rgb(95, 91, 91);
 }
-.latest-blogs-container a{
+
+.latest-blogs-container a {
     text-decoration: none;
     color: aliceblue;
     font-weight: 100;
 }
-.latest-blogs-container p{
+
+.latest-blogs-container p {
     font-size: 15px;
 }
 
@@ -272,20 +284,37 @@ body {
 }
 
 #work1 {
-    width: 400px;
+    width: 550px;
 }
 
 .blog-article {
     width: 700px;
     padding: 20px;
+    padding-top: 1cm;
     height: fit-content;
     text-align: left;
     flex-wrap: wrap;
     border: 1px solid black;
-    border: none;background-color: rgb(236, 231, 232);
+    border: none;
+    background-color: rgb(236, 231, 232);
     box-shadow: 5px 5px 10px;
     border-radius: 20px;
     overflow: scroll;
+}
+.blog-article h1, h2{
+    text-align: center;
+}
+.blog-article h1{
+    color: gray;
+    font: "Dancing Script", cursive;
+}
+.blog-article h2{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 100;
+}
+.blog-article h5 {
+    font-size: 20px;
+    color: gray;
 }
 
 ::-webkit-scrollbar {
@@ -293,8 +322,9 @@ body {
 }
 
 .blog-article img {
-    width: 200px;
-    margin-left: 200px;
+    width: 700px;
+    filter: brightness(0.6);
+    margin-left: 0px;
     animation: slideIn 0.5s ease-out forwards;
 }
 
@@ -317,16 +347,19 @@ body {
 
 
 #abel-possession-blog {
-    margin-left: 350px;
+    margin-left: 540px;
     height: fit-content;
-}#showHideBtn{
+}
+
+#showHideBtn {
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
-     margin-left: 250px;
-     background-color: pink;
+    margin-left: 250px;
+    background-color: pink;
 }
-#watch-video-title{
+
+#watch-video-title {
     font-style: italic;
 }
 
@@ -446,40 +479,44 @@ body {
 #subscription-form button:hover {
     background-color: rgb(228, 170, 238);
 }
-.blog-footer{
-text-align: center;
-padding-top: 1cm;
-color: rgb(85, 82, 82);
+
+.blog-footer {
+    text-align: center;
+    padding-top: 1cm;
+    color: rgb(85, 82, 82);
 }
-.blog-footer i{
+
+.blog-footer i {
     padding-left: 0.5cm;
     font-size: 20px;
 }
-.blog-footer a{
+
+.blog-footer a {
     text-decoration: none;
     color: black;
 }
 
-#back-to-home-button{
+#back-to-home-button {
     padding: 10px;
-    border:none;
+    border: none;
     margin-top: 1cm;
     border-radius: 3px;
     background-image: linear-gradient(to bottom, #dbdbdb, #f9f9f9, #dbdbdb);
     cursor: pointer;
 }
+
 @media screen and (min-width: 320px) and (max-width:857px) {
     body {
         font-family: sans-serif;
         margin: 0;
         padding: 0;
         line-height: 1.4;
-    
+
         width: 100%;
         top: 0px;
-    
+
     }
-    
+
     #home {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(image/Bcg.png);
         width: 100%;
@@ -487,20 +524,21 @@ color: rgb(85, 82, 82);
         color: #eee;
         position: relative;
     }
-    
-    #blog-author-name{
+
+    #blog-author-name {
         font-family: "Dancing Script", cursive;
         color: linear-gradient(to bottom, #dbdbdb, #f9f9f9, #dbdbdb);
         cursor: pointer;
     }
+
     .author-logo {
         font-style: italic;
     }
-    
+
     .author-logo img {
         width: 100px;
     }
-    
+
     .main-nav {
         background-color: #fff;
         color: #333;
@@ -513,7 +551,7 @@ color: rgb(85, 82, 82);
         z-index: 100;
         top: 0;
     }
-    
+
     .main-nav ul {
         list-style: none;
         padding: 0;
@@ -526,40 +564,40 @@ color: rgb(85, 82, 82);
         z-index: 100;
         top: 0;
     }
-    
+
     .main-nav a {
         text-decoration: none;
         color: #333;
         font-size: 0.7em;
     }
-    
+
     .main-nav a:hover {
         color: #007bff;
     }
-    
+
     .home-hero-container {
         padding: 80px 20px;
         text-align: center;
     }
-    
+
     .home-hero-container .subtitile {
         font-family: 0.8em;
         color: #777;
         margin-bottom: 10px;
     }
-    
+
     .home-hero-container h1 {
         font-size: 2em;
         margin-bottom: 20px;
         list-style: 1.2;
     }
-    
+
     .home-hero-container p {
         color: #555;
         margin-bottom: 30px;
         font-size: 1em;
     }
-    
+
     .home-hero-container button {
         display: inline-block;
         background-color: rgba(248, 149, 148, 1);
@@ -572,70 +610,75 @@ color: rgb(85, 82, 82);
         font-family: "Lobster", sans-serif;
         transform: translate(0%, -120%);
     }
-    
+
     .home-hero-container button:hover {
         background-color: rgba(255, 92, 148, 1);
     }
-    .home-subtitle{
+
+    .home-subtitle {
         font-size: 25px;
     }
+
     .home-subtitle p {
         font-size: 17px;
         width: 500px;
         margin-left: 480px;
         color: aliceblue;
     }
-    
+
     #my-passions-grid {
         justify-content: center;
         padding: 40px 20px;
         gap: 20px;
         flex-wrap: wrap;
     }
-    
+
     #my-passions-grid button {
         padding: 30px;
         margin-left: 600px;
         border-radius: 20px;
     }
-    
+
     #my-passions-grid h1 {
         margin-left: 50px;
         font-size: 30px;
     }
-    
+
     .author-passions-container {
         display: flex;
         flex-direction: column;
-        gap:2px;
-        
+        gap: 2px;
+
     }
-    .author-passions-container img{
+
+    .author-passions-container img {
         width: 100px;
         transition: transform 0.4s ease;
     }
-    .author-passion img:hover{
+
+    .author-passion img:hover {
         transform: scale(1.2);
     }
+
     .author-passion {
-        background-color: #dabfbf;
+        background-color: rgb(235, 211, 214);
         border-radius: 5px;
         box-shadow: 0 25px 5px rgba(0, 0, 0, 0.1);
         padding: 30px;
         text-align: center;
         max-width: 300px;
     }
-    
+
     .author-passion h3 {
         margin-top: 0;
         color: #333;
     }
-    
+
     .author-passion p {
         color: #555;
         margin-bottom: 20px;
     }
-    
+
     .author-passion button {
         display: inline-block;
         background-color: #007bff;
@@ -643,50 +686,50 @@ color: rgb(85, 82, 82);
         padding: 10px 20px;
         border-radius: 5px;
         font-size: 1em;
-        
+
     }
-    
+
     .author-passion button:hover {
         background-color: #0056b3;
     }
-    
+
     .latest-blogs-container {
         overflow: hidden;
         width: 90%;
         margin: 20px auto;
         position: relative;
     }
-    
+
     @keyframes slideIn {
         from {
             left: 0px;
             opacity: 0;
         }
-    
+
         to {
             left: 0px;
             opacity: 1;
         }
     }
-    
+
     .blog-item:nth-child(1) {
         animation-delay: 0s;
     }
-    
+
     .blog-item:nth-child(2) {
         animation-delay: 0.2s;
     }
-    
+
     .blog-item:nth-child(3) {
         animation-delay: 0.4s;
     }
-    
+
     .latest-blogs-slider {
         display: flex;
         flex-direction: column;
         flex: wrap;
     }
-    
+
     .blog-item {
         flex: 0 0 calc(33.33% - 20px);
         border: 1px solid #ddd;
@@ -694,29 +737,29 @@ color: rgb(85, 82, 82);
         overflow: hidden;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    
+
     .blog-item img {
         width: 100%;
         display: block;
         height: auto;
     }
-    
+
     .blog-content {
         padding: 15px;
         text-align: center;
     }
-    
+
     .blog-title {
         font-size: 1em;
         margin-bottom: 5px;
     }
-    
+
     .blog-description {
         font-size: 0.5em;
         color: #555;
         margin-bottom: 10px;
     }
-    
+
     .read-more {
         display: inline-block;
         padding: 8px 15px;
@@ -725,16 +768,16 @@ color: rgb(85, 82, 82);
         border-radius: 5px;
         font-size: 0.9em;
     }
-    
+
     #myWork {
         display: flex;
     }
-    
+
     #work1 {
         width: 500px;
         display: none;
     }
-    
+
     .blog-article {
         width: 700px;
         padding: 20px;
@@ -742,60 +785,64 @@ color: rgb(85, 82, 82);
         text-align: left;
         flex-wrap: wrap;
         border: 1px solid black;
-        border: none;background-color: rgb(236, 231, 232);
+        border: none;
+        background-color: rgb(236, 231, 232);
         box-shadow: 5px 5px 10px;
         border-radius: 20px;
         overflow: scroll;
     }
-    
+
     ::-webkit-scrollbar {
         display: none;
     }
-    
+
     .blog-article img {
         width: 200px;
         margin-left: 200px;
         animation: slideIn 0.5s ease-out forwards;
     }
-    
+
     @keyframes slideIn {
         from {
             right: -250px;
             opacity: 0;
         }
-    
+
         to {
             right: -300px;
             opacity: 1;
         }
     }
-    
+
     .blog-article img {
         animation-delay: 0s;
     }
-    
-    
-    
+
+
+
     #abel-possession-blog {
         margin-left: 0px;
         width: 390px;
         height: fit-content;
     }
-    #abel-possession-blog video{
+
+    #abel-possession-blog video {
         width: 400px;
     }
-    #showHideBtn{
+
+    #showHideBtn {
         padding: 10px;
         border: 1px solid gray;
         border-radius: 5px;
-         margin-left: 250px;
-         background-color: pink;
+        margin-left: 250px;
+        background-color: pink;
     }
-    #watch-video-title{
+
+    #watch-video-title {
         font-style: italic;
     }
 
-    
+
     .review-carousel {
         width: 80%;
         max-width: 600px;
@@ -805,43 +852,43 @@ color: rgb(85, 82, 82);
         text-align: center;
         position: relative;
     }
-    
+
     .review-carousel i {
         font-size: 40px;
     }
-    
+
     #what-readers-say {
         font-style: italic;
     }
-    
+
     .review-container {
         overflow: hidden;
         background-color: pink;
-    
+
     }
-    
+
     .review-item {
         padding: 20px;
         display: none;
     }
-    
+
     .review-item:first-child {
         display: block;
     }
-    
+
     .reviewer {
         font-style: italic;
         margin-top: 10px;
         color: #777;
     }
-    
+
     .navigation {
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .prev-button,
     .next-button {
         padding: 10px 15px;
@@ -849,7 +896,7 @@ color: rgb(85, 82, 82);
         border: 1px solid #ccc;
         background-color: #f9f9f9;
     }
-    
+
     .indicators {
         width: 12px;
         height: 12px;
@@ -857,11 +904,11 @@ color: rgb(85, 82, 82);
         background-color: #ddd;
         cursor: pointer;
     }
-    
+
     .indicator-dot-active {
         background-color: #555;
     }
-    
+
     #subscribe-section {
         background-color: #f0f0e6;
         padding: 50px;
@@ -872,36 +919,36 @@ color: rgb(85, 82, 82);
         align-items: center;
         font-family: sans-serif;
     }
-    
+
     .text-content {
         max-width: 90%;
         text-align: left;
     }
-    
+
     .text-content h2 {
         font-size: 2em;
         color: #333;
         margin-bottom: 15px;
     }
-    
+
     .text-content p {
         font-size: 1em;
         color: #555;
         line-height: 1.5;
     }
-    
+
     #subscription-form {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    
+
     #subscription-form input {
         padding: 12px 15px;
         width: 200px;
         border-radius: 5px;
     }
-    
+
     #subscription-form button {
         border-radius: 10px;
         width: 150px;
@@ -909,29 +956,32 @@ color: rgb(85, 82, 82);
         background-color: pink;
         border: none;
     }
-    
+
     #subscription-form button:hover {
         background-color: rgb(228, 170, 238);
     }
-    .blog-footer{
-    text-align: center;
-    padding-top: 1cm;
-    padding: 10px;
-    color: rgb(85, 82, 82);
-    margin-bottom: 2.4cm;
+
+    .blog-footer {
+        text-align: center;
+        padding-top: 1cm;
+        padding: 10px;
+        color: rgb(85, 82, 82);
+        margin-bottom: 2.4cm;
     }
-    .blog-footer i{
+
+    .blog-footer i {
         padding-left: 0.5cm;
         font-size: 20px;
     }
-    .blog-footer a{
+
+    .blog-footer a {
         text-decoration: none;
         color: black;
     }
-    
-    #back-to-home-button{
+
+    #back-to-home-button {
         padding: 10px;
-        border:none;
+        border: none;
         margin-top: 1cm;
         border-radius: 3px;
         background-image: linear-gradient(to bottom, #dbdbdb, #f9f9f9, #dbdbdb);
