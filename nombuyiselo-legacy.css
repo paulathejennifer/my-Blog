@@ -474,6 +474,7 @@ body {
     padding: 20px;
     background-color: pink;
     border: none;
+    cursor: pointer;
 }
 
 #subscription-form button:hover {

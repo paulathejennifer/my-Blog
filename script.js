@@ -108,5 +108,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+const submitButton =
+document.getElementById('submit-button');
+const form =
+document.getElementById('subscription-form')
+const originalText = submitButton.textContent;
+
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+    submitButton.textContent = 'Please Wait...'
+    setTimeout(function(){
+window.location.href = 'buy-novel.html'
+    }, 3000 )
+}
+
+);
+
+
 
   

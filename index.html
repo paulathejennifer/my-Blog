@@ -222,7 +222,7 @@
                     <br>
                     <span id="what-readers-say">What Readers Say</span>
                     <p>Jennifer's blog is a treasure of inspiration and insight. Her captivating stories shift you to new
-                        worlds, while her self-awreness tips and wellness advice to new worlds have genuinely improved
+                        worlds, while her self-awareness tips and wellness advice have genuinely improved
                         my lifestyle</p>
                     <p class="reviewer">Berissa Muyizere</p>
                 </div>
@@ -243,7 +243,7 @@
                     <br>
                     <span id="what-readers-say">What Readers Say</span>
                     <p>The quality of writing and the depth of research in Jennifer's blog are truly impressive. I
-                        appreciate the diverse range of topics covered, and I always come away feeling like I've learned
+                        appreciate the diverse range of topics covered, and I always end up feeling like I've learned
                         something new</p>
                     <p class="reviewer">Jecinta Wanjiru</p>
                 </div>
@@ -259,21 +259,21 @@
                 </div>
             </div>
 
-            <script src="script.js"></script>
+         
         </div>
     </section>
 
     <section id="subscribe-section">
         <div class="text-content">
             <h2>Let's learn, explore and thrive together!</h2>
-            <p>Connect with Us and be part of a cmmunity that values growth and empowerment</p>
+            <p>Connect with us and be part of a cmmunity that values growth and empowerment</p>
            <a href="index.html"><button id="back-to-home-button">Back to Home</button></a>&nbsp;<i class="fa-solid fa-arrow-left" id="goBack-option"></i>
         </div>
         <div id="subscription-form">
             <input type="email" placeholder="Add your email here" required>
             <button type="submit" id="submit-button">SUBSCRIBE</button>
         </div>
-   
+        <script src="script.js"></script>
     </section>
     <footer class="blog-footer">
         
@@ -284,23 +284,6 @@
            <a href="https://www.youtube.com/channel/UCr5NPYEeoTKvnc9FrcCwWiA"><i class="fa-brands fa-youtube"></i></a> </p>
    
     </footer>
-    <script>
-        const submitButton =
-        document.getElementById('submit-button');
-        const form =
-        document.getElementById('subscription-form')
-        const originalText = submitButton.textContent;
-
-        form.addEventListener('submit', function(event){
-            event.preventDefault();
-            submitButton.textContent = 'Please Wait...'
-            setTimeout(function(){
-window.location.href = 'index.html'
-            }, 3000 )
-        }
-
-    );
-    </script>
 
 
 
