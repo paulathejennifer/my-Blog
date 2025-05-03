@@ -283,7 +283,7 @@ body {
     display: flex;
 }
 
-#work1 {
+#marketing-articles {
     width: 550px;
 }
 
@@ -773,7 +773,7 @@ body {
         display: flex;
     }
 
-    #work1 {
+    #marketing-articles {
         width: 500px;
         display: none;
     }
@@ -798,7 +798,7 @@ body {
 
     .blog-article img {
         width: 200px;
-        margin-left: 200px;
+        margin-left: 100px;
         animation: slideIn 0.5s ease-out forwards;
     }
 
