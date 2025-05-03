@@ -131,7 +131,7 @@ body {
 }
 
 #my-passions-grid h1 {
-    text-align: center;
+    margin-left: 600px;
     font-size: 30px;
     color: gray;
     font-weight: 100;
