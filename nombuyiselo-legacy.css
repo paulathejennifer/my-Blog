@@ -113,7 +113,7 @@ body {
 .home-subtitle p {
     font-size: 17px;
     width: 500px;
-    margin-left: 500px;
+    margin-left: 650px;
     color: aliceblue;
 }
 
@@ -284,7 +284,7 @@ body {
 }
 
 #marketing-articles {
-    width: 400px;
+    width: 550px;
 }
 
 .blog-article {
@@ -347,7 +347,7 @@ body {
 
 
 #abel-possession-blog {
-    margin-left: 400px;
+    margin-left: 540px;
     height: fit-content;
 }
 
@@ -506,7 +506,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (min-width: 320px) and (max-width:857px) {
+@media screen and (min-width: 320px) and (max-width:1280px) {
     *{
         overflow-x:hidden ;
     }
@@ -515,7 +515,6 @@ body {
         margin: 0;
         padding: 0;
         line-height: 1.4;
-        overflow-x: hidden;
         top: 0px;
 
     }
@@ -559,8 +558,8 @@ body {
         list-style: none;
         padding: 0;
         margin: 0;
-        margin-right: 2cm;
-        gap: 1.2cm;
+        margin-right: 1cm;
+        gap: 0.5cm;
         display: flex;
         align-items: center;
         position: sticky;
@@ -576,6 +575,9 @@ body {
 
     .main-nav a:hover {
         color: #007bff;
+    }
+    #jen-libraries{
+        display: none;
     }
 
     .home-hero-container {
@@ -825,7 +827,8 @@ body {
 
     #abel-possession-blog {
         margin-left: 0px;
-        width: 390px;
+        overflow: hidden;
+        width: 340px;
         height: fit-content;
     }
 
@@ -991,3 +994,4 @@ body {
         cursor: pointer;
     }
 }
+
